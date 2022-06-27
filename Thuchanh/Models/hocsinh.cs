@@ -11,7 +11,7 @@ namespace Thuchanh.Models
     {
         [Key]
         public int ID { get; set; }
-   
+        [Display(Name ="Ho va ten")]
         public string name { get; set; }
         [Column(TypeName ="varchar")]
         [StringLength(30, MinimumLength = 3, ErrorMessage = "từ 3 đến 30 ký tự")]

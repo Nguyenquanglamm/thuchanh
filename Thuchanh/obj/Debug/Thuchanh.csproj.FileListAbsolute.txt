@@ -76,7 +76,6 @@ F:\LTQL\Thuchanh\Thuchanh\bin\System.Web.WebPages.Razor.xml
 F:\LTQL\Thuchanh\Thuchanh\bin\Newtonsoft.Json.xml
 F:\LTQL\Thuchanh\Thuchanh\bin\Antlr3.Runtime.pdb
 F:\LTQL\Thuchanh\Thuchanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\LTQL\Thuchanh\Thuchanh\obj\Debug\Thuchanh.csproj.AssemblyReference.cache
 F:\LTQL\Thuchanh\Thuchanh\obj\Debug\Thuchanh.csproj.CoreCompileInputs.cache
 F:\LTQL\Thuchanh\Thuchanh\obj\Debug\Thuchanh.csproj.CopyComplete
 F:\LTQL\Thuchanh\Thuchanh\obj\Debug\Thuchanh.dll
@@ -85,3 +84,5 @@ F:\LTQL\Thuchanh\Thuchanh\obj\Debug\Thuchanh.Migrations.hocsinh.resources
 F:\LTQL\Thuchanh\Thuchanh\obj\Debug\Thuchanh.csproj.GenerateResource.cache
 F:\LTQL\Thuchanh\Thuchanh\obj\Debug\Thuchanh.Migrations.hoc1.resources
 F:\LTQL\Thuchanh\Thuchanh\obj\Debug\Thuchanh.Migrations.hoc.resources
+F:\LTQL\Thuchanh\Thuchanh\obj\Debug\Thuchanh.Migrations.account.resources
+F:\LTQL\Thuchanh\Thuchanh\obj\Debug\Thuchanh.csproj.AssemblyReference.cache

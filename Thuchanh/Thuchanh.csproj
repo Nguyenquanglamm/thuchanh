@@ -128,6 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountsController.cs" />
     <Compile Include="Controllers\hocsinhsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -145,7 +146,12 @@
     <Compile Include="Migrations\202206270257135_hoc.Designer.cs">
       <DependentUpon>202206270257135_hoc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202206270417145_account.cs" />
+    <Compile Include="Migrations\202206270417145_account.Designer.cs">
+      <DependentUpon>202206270417145_account.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Accounts.cs" />
     <Compile Include="Models\hocsinh.cs" />
     <Compile Include="Models\thuchanhDBcontext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -191,6 +197,8 @@
     <Content Include="Views\hocsinhs\Details.cshtml" />
     <Content Include="Views\hocsinhs\Edit.cshtml" />
     <Content Include="Views\hocsinhs\Index.cshtml" />
+    <Content Include="Views\Accounts\Login.cshtml" />
+    <Content Include="Views\Accounts\DangNhap.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -217,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202206270257135_hoc.resx">
       <DependentUpon>202206270257135_hoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206270417145_account.resx">
+      <DependentUpon>202206270417145_account.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

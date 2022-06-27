@@ -10,11 +10,13 @@ using Thuchanh.Models;
 
 namespace Thuchanh.Controllers
 {
+   [Authorize]
     public class hocsinhsController : Controller
     {
         private thuchanhDBcontext db = new thuchanhDBcontext();
 
         // GET: hocsinhs
+        [Authorize]
         public ActionResult Index()
         {
             return View(db.Hocsinhs.ToList());
@@ -36,6 +38,7 @@ namespace Thuchanh.Controllers
         }
 
         // GET: hocsinhs/Create
+        
         public ActionResult Create()
         {
             return View();

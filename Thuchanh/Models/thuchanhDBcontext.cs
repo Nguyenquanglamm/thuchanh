@@ -16,5 +16,7 @@ namespace Thuchanh.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }
+
+        public System.Data.Entity.DbSet<Thuchanh.Models.Accounts> Accounts { get; set; }
     }
 }
